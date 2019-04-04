@@ -33,7 +33,7 @@ public class ChromeDriverTest {
         //setup chromedriver
         System.setProperty(
                 "webdriver.chrome.driver",
-                "webdriver/chromedriver");
+                "webdriver/chromedriver.exe");
 
         testUrl = "https://leftstick.github.io/";
 
